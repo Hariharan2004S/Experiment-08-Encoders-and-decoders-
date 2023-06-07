@@ -60,10 +60,34 @@ D7 = X Y Z
 
 
 ### PROGRAM 
+```
+ENCODER
+module encoder(a,b,c,d0,d1,d2,d3,d4,d5,d6,d7);
+output a,b,c;
+input d0,d1,d2,d3,d4,d5,d6,d7;
+or(a,d4,d5,d6,d7);
+or(b,d2,d3,d6,d7);
+or(c,d1,d3,d5,d7);
+endmodule
+
+DE-CODER
+module decoder(d0,d1,d2,d3,d4,d5,d6,d7,a,b,c);
+output d0,d1,d2,d3,d4,d5,d6,d7;
+input a,b,c;
+assign d0=(~a & ~b & ~c);
+assign d1=(~a & ~b & c);
+assign d2=(~a & b & ~c);
+assign d3=(~a & b & c);
+assign d4=(a & ~b & ~c);
+assign d5=(a & ~b & c);
+assign d6=(a & b & ~c);
+assign d7=(a & b & c);
+endmodule
+```
 /*
 Program for Endocers and Decoders  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by:Hariharan.S
+RegisterNumber: 212222050016
 */
 
 
@@ -72,6 +96,9 @@ RegisterNumber:
 
 
 ### RTL LOGIC  
+ENCODER![WhatsApp Image 2023-06-07 at 14 11 39](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/efb97e56-c9c8-443c-a72e-781a2242e8df)
+DE-CODER![decoderrtl](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/9aad11b5-c2d2-425d-9158-337345385200)
+
 
 
 
@@ -81,6 +108,8 @@ RegisterNumber:
 
 
 ### TIMING DIGRAMS  
+ENCODER![WhatsApp Image 2023-06-07 at 14 11 40](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/88e94c01-4c04-44cf-b0bc-dfbc067dbd87)
+DE-CODER![decoder td](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/1a719d5b-edb7-4436-b962-092a62b8d2ef)
 
 
 
