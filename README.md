@@ -109,7 +109,8 @@ DE-CODER![decoderrtl](https://github.com/Hariharan2004S/Experiment-08-Encoders-a
 
 ### TIMING DIGRAMS  
 ENCODER![WhatsApp Image 2023-06-07 at 14 11 40](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/88e94c01-4c04-44cf-b0bc-dfbc067dbd87)
-DE-CODER![decoder td](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/1a719d5b-edb7-4436-b962-092a62b8d2ef)
+DE-CODER
+![decoder td](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/1a719d5b-edb7-4436-b962-092a62b8d2ef)
 
 
 
