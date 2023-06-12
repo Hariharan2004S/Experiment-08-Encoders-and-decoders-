@@ -117,8 +117,9 @@ DE-CODER
 
 
 ### TRUTH TABLE 
+ENCODER![en](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/c4f6c9db-2141-49c0-a562-9dea57ee6904)
 
-
+DE-CODER![de](https://github.com/Hariharan2004S/Experiment-08-Encoders-and-decoders-/assets/123146156/c986ffa9-2744-415f-9538-7270f0f354fd)
 
 
 
